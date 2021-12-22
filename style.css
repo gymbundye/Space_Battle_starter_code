@@ -1,6 +1,6 @@
 .bodyContainer{
     display: flex;
-   
+    background-image: url(https://c.tenor.com/3CyYYCcCn-cAAAAd/galaxy-space.gif) ;
     justify-content: space-between;
     height: 100vh;
     width: 100vw;
@@ -9,6 +9,7 @@
     background-size: 100%;
     background-color: black;
     color: white;
+    
 }
 *{
     margin: 0;
@@ -46,7 +47,7 @@ align-items: center;
     border: 1px solidblack;
     width: 30vw;
     height: 40vh;
-    background-image: url("/images/space_hero.gif");
+    background-image: url("https://c.tenor.com/FkYSwPwMh-wAAAAC/terminator-arnold-schwarzenegger.gif");
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,7 +74,7 @@ align-items: center;
     border: 1px solidblack;
     width: 30vw;
     height: 35vh;
-    background-image: url("/images/enemy.gif");
+    background-image: url("https://thumbs.gfycat.com/IllegalOblongBustard-size_restricted.gif");
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -94,4 +95,10 @@ align-items: center;
     font-size: 1.5em;
     box-shadow: 0px 0px 20px 10px white;
 
+}
+.button{
+    width: 10vw;
+    height: 10vh;
+    
+    color: rgb(2, 3, 3);
 }
